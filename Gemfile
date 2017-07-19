@@ -22,6 +22,8 @@ gem 'bootstrap-sass'
 
 gem 'letter_opener', group: :development
 
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 #stripe for payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # Use Puma as the app server

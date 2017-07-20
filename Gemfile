@@ -33,6 +33,7 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 #devise for user authentication
 gem 'devise'
 
+
 #stripe for payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
 # Use Puma as the app server

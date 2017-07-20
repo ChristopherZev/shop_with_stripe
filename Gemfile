@@ -20,9 +20,18 @@ gem 'rails_12factor', group: :production
 #add twitter bootstrap
 gem 'bootstrap-sass'
 
+#mailer config
 gem 'letter_opener', group: :development
-
+#Securely configure App, figaro
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+
+#activeadmin for admin system
+gem 'activeadmin', github: 'activeadmin'
+#used to make activeadmin work on Rails 5
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+#devise for user authentication
+gem 'devise'
 
 #stripe for payments
 gem 'stripe', :git =>'https://github.com/stripe/stripe-ruby'
